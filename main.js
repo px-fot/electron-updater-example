@@ -86,6 +86,7 @@ autoUpdater.on('update-not-available', (ev, info) => {
 })
 autoUpdater.on('error', (ev, err) => {
   sendStatus('Error in auto-updater.');
+  sendStatus(err,'');
   log.info('err', err);
 })
 autoUpdater.on('download-progress', (ev, progressObj) => {
