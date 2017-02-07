@@ -1,11 +1,11 @@
 {
   "name": "electron-updater-example",
-  "version": "0.2.7",
+  "version": "0.2.8",
   "main": "main.js",
   "description": "electron-updater example project",
   "author": "Matt Haggard",
   "scripts": {
-    "dist-win" : "build --win",
+    "dist-win" : "build --win  -p always",
     "dist-mac" : "build --mac"
   },
   "devDependencies": {
